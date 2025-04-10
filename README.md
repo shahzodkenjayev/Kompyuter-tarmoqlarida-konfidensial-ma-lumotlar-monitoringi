@@ -11,9 +11,9 @@ Bu loyiha kompyuter tarmoqlarida konfidensial ma'lumotlarni monitoring qilish, x
 
 ## 🔧 Texnologiyalar
 
-- **Backend:** PHP (Laravel / Core PHP)
+- **Backend:** PHP (Laravel + Core PHP)
 - **Ma'lumotlar Bazasi:** PostgreSQL
-- **Client:** Flutter
+- **Client:** Flutter Windows , Linux , Macos , Android
 - **Autentifikatsiya:** JWT (JSON Web Tokens)
 - **Xavfsizlik:** SSL/TLS shifrlash
 - **Monitoring:** Real-time xabarlar uchun WebSocket
@@ -26,7 +26,7 @@ Bu loyiha kompyuter tarmoqlarida konfidensial ma'lumotlarni monitoring qilish, x
    - API orqali Flutter client bilan aloqa o‘rnatiladi.
    
 2. **Frontend (Flutter)**
-   - Flutter mobil ilova tarmoq monitoringini foydalanuvchiga real vaqt rejimida ko‘rsatadi.
+   - Flutter ilova tarmoq monitoringini foydalanuvchiga real vaqt rejimida ko‘rsatadi.
    - Foydalanuvchilar tizimga kirish va hisobotlarni olish imkoniyatiga ega.
    
 3. **Xavfsizlik**
@@ -65,8 +65,6 @@ Backend (PHP) o‘rnatish:
 Agar Laravel ishlatayotgan bo‘lsangiz:
 
 bash
-Копировать
-Редактировать
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -95,28 +93,20 @@ flutter run
 📦 Loyihani Test qilish
 Backend testlarini bajarish uchun:
 
-bash
-Копировать
-Редактировать
 php artisan test
 Frontend testlari:
 
-bash
-Копировать
-Редактировать
 flutter test
 📸 Skrinshotlar
 
 📩 Muallif
-Ism: [Ismingiz]
+Ism: [Shahzod Kenjayev ]
 
-Email: [you@example.com]
+Email: [sh@uzgpt.uz]
 
-Telegram: [@yourusername]
+Telegram: [@shahzodkenjayev]
 
 yaml
-Копировать
-Редактировать
 
 ---
 
@@ -127,9 +117,7 @@ yaml
 3. **Frontend** - Flutter ilovasi yordamida foydalanuvchilar uchun mobil interfeys yaratish.
 4. **Ma'lumotlar bazasi** - PostgreSQL’da foydalanuvchilar va monitoring loglari saqlanadi.
 
----
-
-**Xohlasangiz, kodlarni va fayllarni** GitHub’ga joylashtirib, so‘ngra README faylini to‘g‘rilashda yordam bera olishim mumkin.
+-
 
 
 
