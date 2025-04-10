@@ -75,8 +75,6 @@ PostgreSQL sozlash:
 PostgreSQL serverini o‘rnating va .env faylida quyidagilarni sozlang:
 
 env
-Копировать
-Редактировать
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
@@ -85,9 +83,7 @@ DB_USERNAME=your-username
 DB_PASSWORD=your-password
 Frontend (Flutter) o‘rnatish:
 
-bash
-Копировать
-Редактировать
+
 flutter pub get
 flutter run
 📦 Loyihani Test qilish
